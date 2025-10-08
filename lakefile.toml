@@ -1,0 +1,24 @@
+name = "SorryDBTest422"
+version = "0.1.0"
+defaultTargets = ["sorrydbtest422"]
+
+[[lean_lib]]
+name = "SorryDBTest422"
+
+[[lean_exe]]
+name = "sorrydbtest422"
+root = "Main"
+
+
+[[require]]
+name = "Hammer"
+git = "https://github.com/JOSHCLUNE/LeanHammer"
+rev = "v4.22.0"
+
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.22.0"
+
+
