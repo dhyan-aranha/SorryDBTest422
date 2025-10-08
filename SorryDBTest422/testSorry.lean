@@ -1,6 +1,4 @@
 import Mathlib
 import Hammer
 
-lemma hi : ∀ (n :ℝ), n^2 ≥ 0 := by
-  hammer
-  sorry
+lemma hi : ∀ (n :ℝ), n^2 ≥ 0 := by sorry
